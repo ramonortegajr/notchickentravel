@@ -1,0 +1,716 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Century Gothic, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/coverpage.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.logo-travel img{
+  position:inherit;
+  width: 900px;
+  height: auto;
+  margin-left: -120px;
+  margin-top: -5px;
+  border: #fff 15px solid;
+}
+
+header.des{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/coverpage.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  list-style: none;
+  float: left;
+  margin-top: 30px;
+  margin-left: -40px;
+  
+}
+
+ul li{
+  display: inline-block;
+}
+ul li a{
+ text-decoration: none;
+ color: #fff;
+ padding: 5px 20px;
+ border: 1px solid transparent;
+ transition: 0.06 ease;
+ 
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.logo img{
+  float: left;
+  width: 300px;
+  height: auto;
+  margin-left: -100px;
+  margin-top: -40px;
+  border: #fff 15px solid;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000 ;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h2{
+  color: #fff;
+  font-size: 60px;
+}
+
+.button{
+  position:absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6 ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.pin-location{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 80px;
+}
+
+.booking-location{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.hover-1{
+  font-style: Century Gothic;
+  font-size: 50px;
+  color: #fff;
+  margin-top: -55px;
+  margin-left: 50px;
+}
+
+.hover-1::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+  }
+  
+  .hover-1 {
+    --c: #fff; /* the color  */
+    --h: 1.2em;   /* the height */
+    
+    line-height: var(--h);
+    background: 
+      linear-gradient(var(--c) 0 0) no-repeat 
+      calc(200% - var(--_p,0%)) 100%/200% var(--_p,.08em);
+    color: #0000;
+    overflow: hidden;
+    text-shadow: 
+      0 calc(-1*var(--_t,0em)) var(--c), 
+      0 calc(var(--h) - var(--_t,0em)) #000;
+    transition: .3s var(--_s,0s), background-position .3s calc(.3s - var(--_s,0s));
+  }
+  .hover-1:hover {
+    --_t: var(--h);
+    --_p: 100%;
+    --_s: .3s
+  }
+  /*hover 2*/
+
+  .hover-2{
+    font-style: Century Gothic;
+    font-size: 50px;
+    color: #fff;
+    margin-top: -55px;
+    margin-left: 50px;
+  }
+  
+  .hover-2::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+    }
+    
+    .hover-2 {
+      --c: #fff; /* the color  */
+      --h: 1.2em;   /* the height */
+      
+      line-height: var(--h);
+      background: 
+        linear-gradient(var(--c) 0 0) no-repeat 
+        calc(200% - var(--_p,0%)) 100%/200% var(--_p,.08em);
+      color: #0000;
+      overflow: hidden;
+      text-shadow: 
+        0 calc(-1*var(--_t,0em)) var(--c), 
+        0 calc(var(--h) - var(--_t,0em)) #000;
+      transition: .3s var(--_s,0s), background-position .3s calc(.3s - var(--_s,0s));
+    }
+    .hover-2:hover {
+      --_t: var(--h);
+      --_p: 100%;
+      --_s: .3s
+    }
+    
+  /*hover-3*/
+  
+  .hover-3{
+    font-style: Century Gothic;
+    font-size: 50px;
+    color: #fff;
+    margin-top: -55px;
+    margin-left: 50px;
+  }
+  
+  .hover-3::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+    }
+    
+    .hover-3 {
+      --c: #fff; /* the color  */
+      --h: 1.2em;   /* the height */
+      
+      line-height: var(--h);
+      background: 
+        linear-gradient(var(--c) 0 0) no-repeat 
+        calc(200% - var(--_p,0%)) 100%/200% var(--_p,.08em);
+      color: #0000;
+      overflow: hidden;
+      text-shadow: 
+        0 calc(-1*var(--_t,0em)) var(--c), 
+        0 calc(var(--h) - var(--_t,0em)) #000;
+      transition: .3s var(--_s,0s), background-position .3s calc(.3s - var(--_s,0s));
+    }
+    .hover-3:hover {
+      --_t: var(--h);
+      --_p: 100%;
+      --_s: .3s
+    }
+  
+    .p-4{
+      color: #fff;
+      font-style: Century Gothic;
+      font-size: 30px;
+      margin-left: 60px;
+      margin-top: -45px;
+    }
+
+    .destination-title{
+      font-size: 60px;
+      font-style: Century Gothic;
+      color: #fff;
+      margin-bottom:50px;
+    }
+    .booking-title{
+      font-size: 60px;
+      font-style: Century Gothic;
+      color: #fff;
+      margin-bottom:30px;
+    }
+    .text-title{
+      font-size: 20px;
+      color: #fff;
+      position: absolute;
+      margin-left: 45%;
+      margin-top: 40px;
+    }
+
+.air{
+  font-size: 40px;
+  color: #fff;
+  margin-left: 80px;
+  margin-top: -50px;
+}
+.breakfast-sub{
+  color:#fff;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.parallax {
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.text-title i{
+  margin-top: 5px;
+  position: relative;
+  margin-left: 40px;
+}
+
+  .text-title p {
+    --c: #fff; /* the color  */
+    --h: 1.2em;   /* the height */
+    
+    line-height: var(--h);
+    background: 
+      linear-gradient(var(--c) 0 0) no-repeat 
+      calc(200% - var(--_p,0%)) 100%/200% var(--_p,.08em);
+    color: #0000;
+    overflow: hidden;
+    text-shadow: 
+      0 calc(-1*var(--_t,0em)) var(--c), 
+      0 calc(var(--h) - var(--_t,0em)) #000;
+    transition: .3s var(--_s,0s), background-position .3s calc(.3s - var(--_s,0s));
+  }
+  .text-title p:hover {
+    --_t: var(--h);
+    --_p: 100%;
+    --_s: .3s
+  }
+
+  /* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display:table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.zoom {
+  padding: 10px;
+  background-color: #fff;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+.footer-distributed{
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
+
+.about-title{
+  font-size: 60px;
+  color: #fff;
+  margin-top: -60px;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.about-paragraph{
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  text-align:inherit;
+}
+.foot p{
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 540px;
+}
